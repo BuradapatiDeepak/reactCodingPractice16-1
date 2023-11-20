@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 40%;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 52px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-element {
+  width: 65%;
+}
+
+.textarea-element {
+  width: 65%;
+  height: 150px;
+}
+
+.input-element {
+  height: 40px;
+  border-color: #dee0e3;
+  font-size: 16px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-family: 'Roboto';
+  border-width: 1px;
+}
+
+.textarea-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  border-color: #dee0e3;
+}
+
+.button {
+  width: 140px;
+  height: 35px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  background-color: #0284c7;
+  font-family: 16px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border: none;
+}
+hr {
+  border-color: #dee0e3;
+  width: 70%;
+  margin: 0px;
+}
+
+.bottom-container {
+  width: 70%;
+}
+
+span {
+  background-color: #0ea5e9;
+  padding: 5px;
+  color: #ffffff;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
